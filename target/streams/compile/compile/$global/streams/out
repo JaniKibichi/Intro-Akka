@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/home/graham/code/learnAkka/diveIn/src/main/scala/com/github/janikibichi/learnakka/divein/BehaviorAndState.scala:10:37: not found: value Props[0m
+[0m[[0m[31merror[0m] [0m[0m  val sumThem = actorSystem.actorOf(Props[TheSummingActor])[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/graham/code/learnAkka/diveIn/src/main/scala/com/github/janikibichi/learnakka/divein/BehaviorAndState.scala:27:16: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case _ => ("This is the default message")[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

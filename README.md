@@ -18,7 +18,10 @@ that can run for months or years without stopping.
 
 Actors communicate by exchanging messages. These messages are places in a recipients mailbox.
 Actors are managed in an ActorSystem through hierarchies, i.e. there are parent and child actors. 
-There should be one ActorSystem per logical application.
+There should be one ActorSystem per logical application.<br>
+An actorsystem is home to actors, and manages the lifecycle of an actor.
+
+
 
 #### Actor Best Practises:
 Actors Should not block
@@ -28,15 +31,24 @@ Actors are represented using actor references: it is not possible to 'look' into
 from outside.
 
 #### What we do in this repo:
-Create an AKKA project from Scratch using SBT
+###### Create an AKKA project from Scratch using SBT
 
 - Ensure you have [installed SBT.](https://www.scala-sbt.org/1.0/docs/Setup.html)
 - [Create the build.sbt file.](https://asciinema.org/a/tlWDSF1jBYWbSaCaKBfrfzruN)
 - Add AKKA dependency in build.sbt from [mvnrepository.](https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor)
 - Run [sbt update.](https://asciinema.org/a/YquWSJ6d5c7OXRiBaM43FFwTL)
 
-Start actors, communicate between actors, stop an actor.
+###### Start actors, communicate between actors, stop an actor.
 
 - Create the ActorSystem in com.github.yourusername.helloakka, 
   in this case com.github.janikibichi.learnakka.divein
 - Run the app to [fire the first actorSystem](https://asciinema.org/a/C36iHAwerZ8eNmjTQBukj3YcV)
+- [Branch out](https://asciinema.org/a/MTZj7PQpHVoaEYSlu44wOZVXp) to explore behavior and state <br>
+````
+git checkout -b 'actor state & behavior'
+
+````
+- Create the file com.github.janikibichi.learnakka.divein.BehaviorAndState.scala<br>
+  ammend and create the apps entry point.
+- [Run the app](https://asciinema.org/a/kuuCFSvQB7ezVoWmZJ7BQn1wy) to show new Actor address.
+  

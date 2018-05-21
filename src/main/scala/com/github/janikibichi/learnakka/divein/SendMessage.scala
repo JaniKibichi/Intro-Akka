@@ -19,8 +19,13 @@ object SendMessage extends App{
   println(sumThemWithCons.path)
 
   //Send the Message
-  sumThem ! 1
-  sumThemWithCons ! 10
+  while(true){
+    Thread.sleep(3000)
+    
+    sumThem ! 1
+    sumThemWithCons ! 10
+  }
+
 }
 
 //Create Actor Class

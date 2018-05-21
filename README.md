@@ -40,3 +40,4 @@ Start actors, communicate between actors, stop an actor.
 - Create the ActorSystem in com.github.yourusername.helloakka, 
   in this case com.github.janikibichi.learnakka.divein
 - Run the app to [fire the first actorSystem](https://asciinema.org/a/C36iHAwerZ8eNmjTQBukj3YcV)
+- We can also create actors with a constructor that takes an argument.

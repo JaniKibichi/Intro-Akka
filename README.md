@@ -4,16 +4,16 @@
 AKKA is a word assembled from 'Actor Kernel'.
 
 #### Importance of AKKA
-The need:
+*The need:* <br>
 Make use of all cores of hardware as well as distribute work across nodes when running an 
 application.
 
-The Solution:
+*The Solution:* <br>
 An open source toolkit for writing concurrent, fault-tolerant, distributed,self healing, scalable apps 
 that can run for months or years without stopping.
 
 #### Actor Definitions:
-'An actor is a process that executes a function.'
+'An actor is a process that executes a function.'<br>
 'An Actor is an object that encapsulates state and behavior.'
 
 Actors communicate by exchanging messages. These messages are places in a recipients mailbox.

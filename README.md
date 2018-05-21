@@ -45,7 +45,7 @@ from outside.
 - Run the app to [fire the first actorSystem](https://asciinema.org/a/C36iHAwerZ8eNmjTQBukj3YcV)
 - [Branch out](https://asciinema.org/a/MTZj7PQpHVoaEYSlu44wOZVXp) to explore behavior and state <br>
 ````
-git checkout -b 'actor state & behavior'
+git checkout -b 'actor_state_and_behavior'
 
 ````
 - Create the file com.github.janikibichi.learnakka.divein.BehaviorAndState.scala<br>

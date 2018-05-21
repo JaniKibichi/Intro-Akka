@@ -37,7 +37,12 @@ Create an AKKA project from Scratch using SBT
 
 Start actors, communicate between actors, stop an actor.
 
-- Create the ActorSystem in com.github.yourusername.helloakka, 
-  in this case com.github.janikibichi.learnakka.divein
+- Create the ActorSystem in <b>com.github.yourusername.helloakka</b>, 
+  in this case <b>com.github.janikibichi.learnakka.divein</b>
 - Run the app to [fire the first actorSystem](https://asciinema.org/a/C36iHAwerZ8eNmjTQBukj3YcV)
-- We can also create actors with a constructor that takes an argument.
+<br><br>
+- Branch out to explore sending a message
+````
+git checkout -b 'sending_message_to_actors'
+````
+- Create the file <b>com.github.janikibichi.learnakka.divein.SendMessage.scala</b>

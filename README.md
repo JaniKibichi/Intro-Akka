@@ -28,14 +28,14 @@ Actors are represented using actor references: it is not possible to 'look' into
 from outside.
 
 #### What we do in this repo:
-Create an AKKA project from Scratch using SBT
+###### Create an AKKA project from Scratch using SBT
 
 - Ensure you have [installed SBT.](https://www.scala-sbt.org/1.0/docs/Setup.html)
 - [Create the build.sbt file.](https://asciinema.org/a/tlWDSF1jBYWbSaCaKBfrfzruN)
 - Add AKKA dependency in build.sbt from [mvnrepository.](https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor)
 - Run [sbt update.](https://asciinema.org/a/YquWSJ6d5c7OXRiBaM43FFwTL)
 
-Start actors, communicate between actors, stop an actor.
+###### Start actors, communicate between actors, stop an actor.
 
 - Create the ActorSystem in <b>com.github.yourusername.helloakka</b>, 
   in this case <b>com.github.janikibichi.learnakka.divein</b>

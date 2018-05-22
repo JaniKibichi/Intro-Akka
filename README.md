@@ -48,3 +48,10 @@ git checkout -b 'sending_message_to_actors'
 - Create the file <b>com.github.janikibichi.learnakka.divein.SendMessage.scala</b>
 - Update the App to send messages to the actors.<br>
 - Run the app to [send messages to the actors](https://asciinema.org/a/NTZECMRFCb7UvpILLLUAMELmO)
+<br><br>
+- Branch out to explore asking a result from an actor
+````
+git checkout -b ask_result_from_actor send_message_to_actor
+````
+- Create the file <b>com.github.janikibichi.learnakka.divein.AskResult.scala</b>
+- Update the App to [ask results from an actor.](https://asciinema.org/a/LOeDh2VBxyouWN0v0yn6kmMt6)<br>

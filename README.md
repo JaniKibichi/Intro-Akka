@@ -61,3 +61,4 @@ git checkout -b ask_result_from_actor send_message_to_actor
 git checkout -b let_actors_communicate ask_result_from_actor
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.ActorCommunication.scala</b>
+- Update the App to allow [actor to actor communications.](https://asciinema.org/a/YEDXg0WccwWACakYQTUWYYpE8)

@@ -54,4 +54,6 @@ git checkout -b 'sending_message_to_actors'
 git checkout -b ask_result_from_actor send_message_to_actor
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.AskResult.scala</b>
-- Update the App to [ask results from an actor.](https://asciinema.org/a/LOeDh2VBxyouWN0v0yn6kmMt6)<br>
+- Update the App to [ask results from an actor.](https://asciinema.org/a/LOeDh2VBxyouWN0v0yn6kmMt6)
+<br><br>
+

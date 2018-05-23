@@ -35,7 +35,7 @@ Create an AKKA project from Scratch using SBT
 - Add AKKA dependency in build.sbt from [mvnrepository.](https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor)
 - Run [sbt update.](https://asciinema.org/a/YquWSJ6d5c7OXRiBaM43FFwTL)
 
-Start actors, communicate between actors, stop an actor.
+###### Start actors, communicate between actors, stop an actor.
 
 - Create the ActorSystem in com.github.yourusername.helloakka, 
   in this case com.github.janikibichi.learnakka.divein

@@ -85,4 +85,4 @@ git checkout -b control_aware_mailbox priority_actor_mailbox
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.ControlAwareMailBox.scala</b>
 - Update application.conf to add the control-aware-dispatcher in src/main/resources
-- Update the App to [use the control-aware-mailbox.](https://asciinema.org/a/oz9zdDCyRqd4082Owv36lOhCu)
+- Update the App to [use the control-aware-mailbox.](https://asciinema.org/a/e2rGGcm54pUPre2c4kkhCaf8S)

@@ -92,4 +92,4 @@ Branch out to explore actors becoming_unbecoming behavior
 git checkout -b becoming_unbecoming_actor control_aware_mailbox
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.BecomingUnbecomingActor.scala</b>
-- Update the App to [use the becoming-unbecoming-actor.](https://asciinema.org/a/e2rGGcm54pUPre2c4kkhCaf8S)
+- Update the App to [use the becoming-unbecoming-actor.](https://asciinema.org/a/4SR0MCvJn9HSgCaejR82pK0jn)

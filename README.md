@@ -41,3 +41,11 @@ Start actors, communicate between actors, stop an actor.
   in this case com.github.janikibichi.learnakka.divein
 - Run the app to [fire the first actorSystem](https://asciinema.org/a/C36iHAwerZ8eNmjTQBukj3YcV)
 - We can also create actors with a constructor that takes an argument.
+<br><br>
+- Branch out to explore actor behavior and state
+````
+git checkout -b actor_state_and_behavior
+````
+- Create the file <b>com.github.janikibichi.learnakka.divein.BehaviorAndState.scala</b>
+- Update the App to handle behavior and state of the actors.<br>
+- Run the app to [behavior and state](https://asciinema.org/a/dudvZLk0qAIcNlgOCHPd2V0t4)

@@ -77,4 +77,4 @@ git checkout -b priority_actor_mailbox actor_mail_box
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.PriorityMailBox.scala</b>
 - Update application.conf to add the prio-dispatcher in src/main/resources
-- Update the App to [use the priority mailbox.]()
+- Update the App to [use the priority mailbox.](https://asciinema.org/a/oz9zdDCyRqd4082Owv36lOhCu)

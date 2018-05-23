@@ -48,4 +48,4 @@ git checkout -b actor_state_and_behavior
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.BehaviorAndState.scala</b>
 - Update the App to handle behavior and state of the actors.<br>
-- Run the app to [behavior and state](https://asciinema.org/a/dudvZLk0qAIcNlgOCHPd2V0t4)
+- Run the updated app [behavior and state](https://asciinema.org/a/dudvZLk0qAIcNlgOCHPd2V0t4)

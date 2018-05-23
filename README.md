@@ -62,3 +62,19 @@ git checkout -b let_actors_communicate ask_result_from_actor
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.ActorCommunication.scala</b>
 - Update the App to allow [actor to actor communications.](https://asciinema.org/a/YEDXg0WccwWACakYQTUWYYpE8)
+<br><br>
+- Branch out to explore a custom mailbox for an actor
+````
+git checkout -b actor_mail_box let_actors_communicate
+````
+- Create the file <b>com.github.janikibichi.learnakka.divein.ActorMailBox.scala</b>
+- Create the application.conf file to sit in src/main/resources
+- Update the App to [use the custom mailbox.](https://asciinema.org/a/8EkX57DsBqJg6CcyYbod2XdwI)
+<br><br>
+Branch out to explore a priority mailbox
+````
+git checkout -b priority_actor_mailbox actor_mail_box
+````
+- Create the file <b>com.github.janikibichi.learnakka.divein.PriorityMailBox.scala</b>
+- Update application.conf to add the prio-dispatcher in src/main/resources
+- Update the App to [use the priority mailbox.]()

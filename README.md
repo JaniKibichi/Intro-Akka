@@ -93,3 +93,10 @@ git checkout -b becoming_unbecoming_actor control_aware_mailbox
 ````
 - Create the file <b>com.github.janikibichi.learnakka.divein.BecomingUnbecomingActor.scala</b>
 - Update the App to [use the becoming-unbecoming-actor.](https://asciinema.org/a/4SR0MCvJn9HSgCaejR82pK0jn)
+<br><br>
+Branch out to explore stopping actors 
+````
+git checkout -b stopping_an_actor becoming_unbecoming_actor 
+````
+- Create the file <b>com.github.janikibichi.learnakka.divein.StopAnActor.scala</b>
+- Update the App to [stop an actor.](https://asciinema.org/a/4SR0MCvJn9HSgCaejR82pK0jn)
